@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(50deg , #4158D0 , #C850C0 , #FFCC70 );
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-size: 10vh;
+    display: block;
+    margin-bottom: 20vh;
+    text-shadow: 1px 1px 10px 10px black;
+}
+
+span{
+    color: orange;
+}
+
+.container textarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 35vh;
+    margin-bottom: 10vh;
+}
